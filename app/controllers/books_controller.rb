@@ -3,6 +3,10 @@ class BooksController < ApplicationController
 
   def index
     @books = Book.all
+
+    # respond_to do |format|
+    #   format.rss { render layout: false }
+    # end
   end
 
   def show
