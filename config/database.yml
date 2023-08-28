@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: api_book
+  database: jbuilder
 
 test:
   <<: *default
-  database: api_book_test
+  database: jbuilder_test
 
 production:
   <<: *default
-  database: api_book_pro
+  database: jbuilder_pro
